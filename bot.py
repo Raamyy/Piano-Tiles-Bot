@@ -23,24 +23,26 @@ while True:
         searchHeight = sct_img.height
 
     for i in reversed(range(0 ,searchHeight)):
-        # first column
+        # first lane
         if sct_img.pixel(75,i) in searchFor:
             if i>88: # To prevent pop ups
                 cursor.click(75 + 663, i + 37 + 2 )
             searchFor = black
             break
 
-        # second column
+        # second lane
         elif sct_img.pixel(225,i) in searchFor:
             cursor.click(225 + 663, i + 37 + 2)
             searchFor = black
             break
 
+        # third lane
         elif sct_img.pixel(375,i) in searchFor:
             cursor.click(375 + 663, i + 37 + 2 )
             searchFor = black
             break
 
+        # fourth lane
         elif sct_img.pixel(525,i) in searchFor:
             cursor.click(525 + 663, i + 37 + 2 )
             searchFor = black
