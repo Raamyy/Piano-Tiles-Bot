@@ -26,23 +26,23 @@ while True:
         # first column
         if sct_img.pixel(75,i) in searchFor:
             if i>88: # To prevent pop ups
-                cursor.click(75 + 663, i + 37 )
+                cursor.click(75 + 663, i + 37 + 2 )
             searchFor = black
             break
 
         # second column
         elif sct_img.pixel(225,i) in searchFor:
-            cursor.click(225 + 663, i + 37)
+            cursor.click(225 + 663, i + 37 + 2)
             searchFor = black
             break
 
         elif sct_img.pixel(375,i) in searchFor:
-            cursor.click(375 + 663, i + 37 )
+            cursor.click(375 + 663, i + 37 + 2 )
             searchFor = black
             break
 
         elif sct_img.pixel(525,i) in searchFor:
-            cursor.click(525 + 663, i + 37 )
+            cursor.click(525 + 663, i + 37 + 2 )
             searchFor = black
             break
 
