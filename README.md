@@ -13,7 +13,7 @@ The game consists of 4 vertical lanes so the bot checks only one column per lane
 Install the Required libraries<br>
 
 ```shell
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 contributions and Improvements are more than welcomed.
