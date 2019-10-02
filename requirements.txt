@@ -1,0 +1,3 @@
+keyboard==0.13.4
+mss==4.0.3
+PyAutoGUI==0.9.47
